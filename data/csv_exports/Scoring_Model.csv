@@ -1,0 +1,18 @@
+Public-Zone Scoring Controls,,
+,,
+Metric,Weight,Notes
+,,
+Rule,Value,
+Weights must sum to 100%,1,
+Status,OK,
+,,
+Florida school grade,0.5,Convert A/B/C/D/F to 4/3/2/1/0
+ELA achievement %,0.2,Use official proficiency / achievement metric
+Math achievement %,0.1,Split out if desired
+Growth / learning gains %,0.1,Use official gains field
+Graduation %,0.05,Mostly high-school relevant
+College/career readiness %,0.05,High-school relevant; leave zero if unavailable
+,,
+Private-school note,,
+Do not force private schools into the same public-zone score. Use a separate research index or a multi-metric card.,,
+,,

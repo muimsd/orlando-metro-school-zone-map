@@ -1,0 +1,30 @@
+# Large data files that can be regenerated
+data/schools/EDGE_GEOCODE_PUBLICSCH_2324/
+data/schools/EDGE_GEOCODE_PUBLICSCH_2324.zip
+data/schools/pss2122/
+data/schools/pss2122_pu_csv.zip
+data/schools/_inline_data.json
+data/boundaries/osceola_k5_shp/
+data/boundaries/osceola_68_shp/
+data/boundaries/osceola_912_shp/
+data/boundaries/osceola_k5.zip
+data/boundaries/osceola_68.zip
+data/boundaries/osceola_912.zip
+data/boundaries/seminole_faces/
+data/boundaries/tl_2023_13253_faces.zip
+data/boundaries/seminole_faces_temp.geojson
+data/boundaries/lake_Elementary_Primary_Attendance_2025.geojson
+data/boundaries/lake_Elementary_Secondary_2025.geojson
+data/boundaries/lake_Middle_Attendance_2025.geojson
+data/boundaries/lake_GradeLevel_2025.geojson
+data/boundaries/lake_High_2021_2022.geojson
+data/boundaries/lake_LCS_Attendance_Zones.geojson
+data/boundaries/sabs_seminole.geojson
+data/boundaries/sabs_polk.geojson
+
+# Secrets - never commit tokens
+config.js
+
+# OS files
+.DS_Store
+*.swp

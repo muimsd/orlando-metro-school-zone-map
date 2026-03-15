@@ -1,0 +1,4 @@
+state_school_id,school_name,program_type,program_name,application_required,lottery_flag,transportation_notes,district_source_url,notes
+,,Magnet,District magnet / choice programs,YES,Often,See district source pages,https://www.scps.k12.fl.us/121791_2,Keep magnet/choice as point layer; do not fake residential zones.
+,,Charter,District and state charter listings,YES,Varies,State charter directory + district sites,https://www.fldoe.org/schools/school-choice/charter-schools/charter-school-directories/,Use separate charter tab and point layer.
+,,Private,Private school directory records,YES,Varies,State directory + NCES private points,https://www.floridaschoolchoice.org/information/privateschooldirectory/DownloadExcelFile.aspx,Use separate private tab; public-zone score not applicable.

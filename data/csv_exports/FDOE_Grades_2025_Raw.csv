@@ -1,0 +1,325 @@
+state_school_id,district_number,district_name,school_number,school_name,school_type_code,school_type_desc,charter_school,title_i,alternative_ese_center,ela_achievement,ela_learning_gains,math_achievement,math_learning_gains,science_achievement,social_studies_achievement,graduation_rate,career_college_acceleration,total_points,total_components,percent_total_points,percent_tested,grade_2025,grade_2024,econ_disadv_pct,source_url
+350031,35,LAKE,0031,BEVERLY SHORES ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,41,62,53,76,56,,,,479,8,60,99,B,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+350035,35,LAKE,0035,LAKE SUCCESS ELEMENTARY SCHOOL,01,Elementary,NO,NO,A,34,40,40,43,38,,,,311,8,39,98,D,C,,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+350061,35,LAKE,0061,EUSTIS ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,40,55,49,60,44,,,,386,8,48,95,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+350067,35,LAKE,0067,SAWGRASS BAY ELEMENTARY SCHOOL,01,Elementary,NO,NO,N,49,50,53,44,51,,,,388,8,49,99,C,B,64.8,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+350068,35,LAKE,0068,GRASSY LAKE ELEMENTARY SCHOOL,01,Elementary,NO,NO,N,64,53,75,60,60,,,,466,8,58,100,B,B,51.6,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+350069,35,LAKE,0069,SORRENTO ELEMENTARY,01,Elementary,NO,NO,N,62,65,69,60,50,,,,485,8,61,97,B,C,78.2,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+350071,35,LAKE,0071,EUSTIS HEIGHTS ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,34,40,40,43,38,,,,311,8,39,98,D,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+350080,35,LAKE,0080,EAST RIDGE MIDDLE SCHOOL,02,Middle/Junior,NO,NO,N,71,67,74,67,68,83,,,637,9,71,99,A,A,48.4,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+350081,35,LAKE,0081,EUSTIS HIGH SCHOOL,03,Senior High,NO,NO,N,48,51,33,43,66,74,86,53,560,10,56,96,C,C,87.4,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+350101,35,LAKE,0101,FRUITLAND PARK ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,36,56,46,48,51,,,,373,8,47,98,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+350113,35,LAKE,0113,GRAY MIDDLE SCHOOL,02,Middle/Junior,NO,NO,N,45,52,52,58,40,64,,,487,9,54,98,C,C,88.2,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+350119,35,LAKE,0119,THE VILLAGES ELEMENTARY OF LADY LAKE SCHOOL,01,Elementary,NO,YES,N,67,59,75,72,54,,,,531,8,66,99,A,B,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+350141,35,LAKE,0141,SEMINOLE SPRINGS ELEMENTARY SCHOOL,01,Elementary,NO,NO,N,52,57,57,61,62,,,,427,8,53,98,C,B,96.6,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+350149,35,LAKE,0149,ROUND LAKE CHARTER SCHOOL,04,Combination,YES,NO,N,81,69,92,82,66,98,,,778,10,78,99,A,A,27.6,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+350161,35,LAKE,0161,LEESBURG HIGH SCHOOL,03,Senior High,NO,YES,N,41,55,27,34,55,49,91,53,502,10,50,96,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+350181,35,LAKE,0181,MT. DORA HIGH SCHOOL,03,Senior High,NO,NO,N,62,58,57,52,68,77,99,87,659,10,66,96,A,A,67.9,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+350211,35,LAKE,0211,TAVARES HIGH SCHOOL,03,Senior High,NO,NO,N,49,58,41,40,55,75,92,86,601,10,60,98,B,B,84.3,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+350213,35,LAKE,0213,TAVARES MIDDLE SCHOOL,02,Middle/Junior,NO,YES,N,50,56,55,60,57,67,,,546,9,61,99,B,C,97.8,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+350231,35,LAKE,0231,UMATILLA HIGH SCHOOL,03,Senior High,NO,YES,N,48,50,44,41,68,65,97,77,579,10,58,97,B,C,84.2,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+350241,35,LAKE,0241,TREADWAY ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,58,65,66,72,53,,,,497,8,62,95,A,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+350251,35,LAKE,0251,OAK PARK MIDDLE SCHOOL,02,Middle/Junior,NO,YES,N,38,50,46,52,30,60,,,451,9,50,97,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+350261,35,LAKE,0261,MINNEOLA CHARTER SCHOOL,04,Combination,YES,NO,N,70,61,81,73,69,89,,,706,10,71,100,A,A,50.7,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+350271,35,LAKE,0271,ASTATULA ELEMENTARY SCHOOL,01,Elementary,NO,NO,N,47,55,51,60,59,,,,433,8,54,100,B,B,95.3,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+350281,35,LAKE,0281,LOST LAKE ELEMENTARY SCHOOL,01,Elementary,NO,NO,N,64,59,70,63,68,,,,486,8,61,99,B,B,55.5,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+350291,35,LAKE,0291,LEESBURG ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,34,45,39,46,41,,,,334,8,42,99,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+350351,35,LAKE,0351,CARVER MIDDLE SCHOOL,02,Middle/Junior,NO,YES,N,45,53,46,49,34,58,,,452,9,50,98,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+350382,35,LAKE,0382,GROVELAND ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,37,48,40,47,50,,,,359,8,45,99,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+350411,35,LAKE,0411,MT. DORA MIDDLE SCHOOL,02,Middle/Junior,NO,NO,N,47,54,56,54,48,60,,,498,9,55,96,C,B,86.6,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+350431,35,LAKE,0431,LAKE POINTE ACADEMY,04,Combination,NO,NO,N,44,52,54,66,38,73,,,534,10,53,96,C,C,81.1,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+350471,35,LAKE,0471,AURELIA M. COLE ACADEMY,04,Combination,NO,NO,N,56,57,62,60,53,79,,,615,10,62,96,B,C,83.6,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+350481,35,LAKE,0481,WINDY HILL MIDDLE SCHOOL,02,Middle/Junior,NO,NO,N,62,62,64,61,59,74,,,571,9,63,99,B,B,51.3,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+350521,35,LAKE,0521,TRIANGLE ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,38,48,37,45,47,,,,347,8,43,97,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+350541,35,LAKE,0541,MASCOTTE CHARTER SCHOOL,01,Elementary,YES,NO,N,56,58,63,69,47,,,,471,8,59,99,B,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+350551,35,LAKE,0551,TAVARES ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,49,60,50,58,60,,,,420,8,53,99,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+350561,35,LAKE,0561,UMATILLA ELEMENTARY SCHOOL,01,Elementary,NO,NO,N,51,55,64,70,53,,,,453,8,57,96,B,B,99.4,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+350571,35,LAKE,0571,UMATILLA MIDDLE SCHOOL,02,Middle/Junior,NO,YES,N,49,54,62,57,52,75,,,538,9,60,97,B,B,91.9,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+350591,35,LAKE,0591,PINE RIDGE ELEMENTARY SCHOOL,01,Elementary,NO,NO,N,55,63,65,63,75,,,,470,8,59,99,B,B,66.5,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+350597,35,LAKE,0597,CYPRESS RIDGE ELEMENTARY SCHOOL,01,Elementary,NO,NO,N,76,62,86,80,83,,,,582,8,73,100,A,A,35.9,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+350631,35,LAKE,0631,SPRING CREEK CHARTER SCHOOL,04,Combination,YES,YES,N,54,62,57,67,51,55,,,581,10,58,100,B,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+350697,35,LAKE,0697,EUSTIS MIDDLE SCHOOL,02,Middle/Junior,NO,YES,N,45,51,43,52,40,51,,,469,9,52,97,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+350701,35,LAKE,0701,SOUTH LAKE HIGH SCHOOL,03,Senior High,NO,NO,N,54,58,33,35,69,71,91,75,584,10,58,98,B,B,73.4,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+350801,35,LAKE,0801,EAST RIDGE HIGH SCHOOL,03,Senior High,NO,NO,N,61,58,48,48,80,77,97,80,654,10,65,98,A,B,51.1,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+350901,35,LAKE,0901,LAKE MINNEOLA HIGH SCHOOL,03,Senior High,NO,NO,N,66,57,45,34,73,76,98,70,601,10,60,98,B,B,48.4,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+357004,35,LAKE,7004,LAKE VIRTUAL FRANCHISE,04,Combination,NO,NO,N,67,67,52,46,78,65,91,52,722,11,66,100,A,C,0,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+359027,35,LAKE,9027,PINECREST ACADEMY FOUR CORNERS,04,Combination,YES,NO,N,64,65,58,60,56,81,,,643,10,64,100,A,A,64.9,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+359028,35,LAKE,9028,ALTOONA SCHOOL,01,Elementary,YES,YES,N,69,66,75,76,73,,,,576,8,72,100,A,A,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+359031,35,LAKE,9031,IMAGINE SCHOOLS AT SOUTH LAKE,04,Combination,YES,NO,N,73,57,85,70,69,89,,,728,10,73,100,A,A,21.8,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+359039,35,LAKE,9039,PINECREST ACADEMY TAVARES,04,Combination,YES,NO,N,73,74,77,69,65,90,,,736,10,74,100,A,A,51,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+359041,35,LAKE,9041,PINECREST LAKES ACADEMY,04,Combination,YES,NO,N,87,68,92,65,82,96,,,806,10,81,100,A,A,25.9,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+359061,35,LAKE,9061,PINECREST LAKES MIDDLE/HIGH ACADEMY,03,Senior High,YES,NO,N,83,69,80,79,88,78,98,84,800,10,80,99,A,A,24.1,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490005,49,OSCEOLA,0005,TOHOPEKALIGA HIGH SCHOOL,03,Senior High,NO,NO,N,63,66,46,51,70,71,92,59,651,10,65,96,A,B,56.1,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490011,49,OSCEOLA,0011,HARMONY COMMUNITY SCHOOL,01,Elementary,NO,NO,N,71,71,72,67,72,,,,562,8,70,100,A,A,43,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490040,49,OSCEOLA,0040,NARCOOSSEE MIDDLE SCHOOL,02,Middle/Junior,NO,NO,N,59,60,67,62,66,82,,,591,9,66,99,A,A,49.3,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490041,49,OSCEOLA,0041,DISCOVERY INTERMEDIATE SCHOOL,02,Middle/Junior,NO,YES,N,47,58,37,51,48,79,,,500,9,56,95,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490042,49,OSCEOLA,0042,KISSIMMEE ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,47,65,38,48,49,,,,420,8,53,100,C,C,87.8,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490043,49,OSCEOLA,0043,NARCOOSSEE ELEMENTARY SCHOOL,01,Elementary,NO,NO,N,67,60,65,50,58,,,,467,8,58,99,B,B,42,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490061,49,OSCEOLA,0061,CENTRAL AVENUE ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,29,54,35,52,27,,,,344,8,43,98,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490071,49,OSCEOLA,0071,HIGHLANDS ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,38,45,38,31,45,,,,329,8,41,99,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490081,49,OSCEOLA,0081,OSCEOLA HIGH SCHOOL,03,Senior High,NO,YES,N,46,58,40,48,65,67,95,49,585,10,59,96,B,C,85.7,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490091,49,OSCEOLA,0091,DENN JOHN MIDDLE SCHOOL,02,Middle/Junior,NO,YES,N,34,46,34,44,26,59,,,414,9,46,96,C,C,99.4,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490101,49,OSCEOLA,0101,THACKER AVENUE ELEMENTARY FOR INTERNATIONAL STUDIES,01,Elementary,NO,YES,N,38,53,46,55,41,,,,352,8,44,97,C,D,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490111,49,OSCEOLA,0111,ST. CLOUD ELEMENTARY SCHOOL,01,Elementary,NO,NO,N,65,62,66,51,69,,,,483,8,60,100,B,C,78.5,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490131,49,OSCEOLA,0131,BRIDGEPREP ACADEMY OF ST.CLOUD,04,Combination,YES,NO,N,57,62,47,45,38,67,,,535,10,54,99,C,C,52.2,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490149,49,OSCEOLA,0149,RENAISSANCE CHARTER SCHOOL AT POINCIANA,04,Combination,YES,YES,N,44,55,50,54,50,61,,,553,10,55,100,C,C,90.8,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490152,49,OSCEOLA,0152,FOUR CORNERS UPPER SCHOOL,04,Combination,YES,NO,N,54,61,46,51,57,72,96,76,716,11,65,99,A,B,68.2,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490153,49,OSCEOLA,0153,FLORIDA CYBER CHARTER ACADEMY AT OSCEOLA,04,Combination,YES,NO,N,39,43,20,37,29,50,,,391,10,39,97,D,C,25.7,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490155,49,OSCEOLA,0155,VICTORY CHARTER SCHOOL,04,Combination,YES,YES,N,39,60,33,56,41,56,87,41,590,11,54,99,C,C,65.9,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490163,49,OSCEOLA,0163,MATER BRIGHTON LAKES,04,Combination,YES,YES,N,51,62,53,64,42,65,,,572,10,57,99,B,C,82.7,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490171,49,OSCEOLA,0171,RENAISSANCE CHARTER SCHOOL AT TAPESTRY,04,Combination,YES,YES,N,51,64,61,71,55,77,,,642,10,64,100,A,B,69,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490181,49,OSCEOLA,0181,OSCEOLA SCIENCE CHARTER SCHOOL,04,Combination,YES,NO,N,65,62,70,67,66,69,,,675,10,68,99,A,A,51.6,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490182,49,OSCEOLA,0182,LINCOLN-MARTI CHARTER SCHOOLS(OSCEOLA CAMPUS),01,Elementary,YES,YES,N,55,67,42,43,20,,,,291,6,49,100,C,C,93.7,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490183,49,OSCEOLA,0183,SPORTS LEADERSHIP ARTS MANAGEMENT (SLAM),02,Middle/Junior,YES,YES,N,79,67,61,56,75,92,,,630,9,70,100,A,A,74.6,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490184,49,OSCEOLA,0184,BRIDGEPREP ACADEMY OSCEOLA COUNTY,04,Combination,YES,YES,N,41,52,43,58,29,71,,,534,10,53,97,C,C,87.1,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490185,49,OSCEOLA,0185,MATER PALMS ACADEMY,04,Combination,YES,YES,N,61,65,62,62,46,75,,,622,10,62,98,B,B,66.2,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490191,49,OSCEOLA,0191,RENAISSANCE ACADEMY OF ARTS AND SCIENCES,04,Combination,YES,NO,N,51,61,48,50,59,64,,,582,10,58,100,B,C,58.6,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490192,49,OSCEOLA,0192,CREATIVE INSPIRATION JOURNEY SCHOOL OF ST CLOUD,04,Combination,YES,NO,N,55,51,42,52,49,71,,,467,10,47,98,C,C,42.4,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490201,49,OSCEOLA,0201,ST. CLOUD HIGH SCHOOL,03,Senior High,NO,NO,N,50,53,40,48,69,73,94,65,601,10,60,97,B,B,53.5,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490202,49,OSCEOLA,0202,MATER ACADEMY AT ST CLOUD,04,Combination,YES,YES,N,61,66,57,66,41,76,,,639,10,64,100,A,B,69.2,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490203,49,OSCEOLA,0203,VICTORY CHARTER SCHOOL K-5,01,Elementary,YES,NO,N,43,54,38,46,30,,,,344,8,43,99,C,C,72.2,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490251,49,OSCEOLA,0251,KISSIMMEE MIDDLE SCHOOL,02,Middle/Junior,NO,YES,N,42,58,50,67,49,72,,,553,9,61,97,B,C,87.3,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490252,49,OSCEOLA,0252,HARMONY MIDDLE SCHOOL,02,Middle/Junior,NO,NO,N,60,58,64,66,61,77,,,583,9,65,99,A,B,45.5,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490271,49,OSCEOLA,0271,MICHIGAN AVENUE ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,53,65,59,62,47,,,,458,8,57,100,B,B,87.1,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490272,49,OSCEOLA,0272,ST. CLOUD MIDDLE SCHOOL,02,Middle/Junior,NO,NO,N,59,61,67,68,61,74,,,591,9,66,99,A,B,76.1,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490300,49,OSCEOLA,0300,KOA ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,40,50,37,58,36,,,,364,8,46,99,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490301,49,OSCEOLA,0301,REEDY CREEK ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,62,63,47,51,52,,,,459,8,57,100,B,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490302,49,OSCEOLA,0302,WESTSIDE K-8 SCHOOL,04,Combination,NO,YES,N,51,58,50,58,55,78,,,601,10,60,99,B,B,70.5,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490311,49,OSCEOLA,0311,NEPTUNE MIDDLE SCHOOL,02,Middle/Junior,NO,YES,N,56,62,65,65,67,84,,,615,9,68,98,A,A,75.6,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490321,49,OSCEOLA,0321,VENTURA ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,48,54,49,51,45,,,,384,8,48,100,C,B,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490341,49,OSCEOLA,0341,HORIZON MIDDLE SCHOOL,02,Middle/Junior,NO,YES,N,46,54,56,68,49,63,,,538,9,60,98,B,C,94,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490401,49,OSCEOLA,0401,BOGGY CREEK ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,45,61,41,52,40,,,,419,8,52,100,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490501,49,OSCEOLA,0501,HICKORY TREE ELEMENTARY SCHOOL,01,Elementary,NO,NO,N,60,57,62,57,56,,,,443,8,55,100,B,B,49.8,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490601,49,OSCEOLA,0601,GATEWAY HIGH SCHOOL,03,Senior High,NO,YES,N,59,64,43,49,78,71,94,52,636,10,64,95,A,B,71.6,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490701,49,OSCEOLA,0701,MILL CREEK ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,39,46,39,35,32,,,,324,8,41,99,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490711,49,OSCEOLA,0711,CELEBRATION K-8,04,Combination,NO,NO,N,70,67,76,77,69,89,,,749,10,75,100,A,A,33.8,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490801,49,OSCEOLA,0801,LAKEVIEW ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,53,50,52,51,64,,,,423,8,53,99,C,B,90.1,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490811,49,OSCEOLA,0811,PLEASANT HILL ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,39,52,45,43,45,,,,344,8,43,96,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490821,49,OSCEOLA,0821,PARKWAY MIDDLE SCHOOL,02,Middle/Junior,NO,YES,N,39,55,43,61,35,70,,,517,9,57,100,B,C,96,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490831,49,OSCEOLA,0831,DEERWOOD ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,44,63,41,52,47,,,,411,8,51,96,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490841,49,OSCEOLA,0841,POINCIANA HIGH SCHOOL,03,Senior High,NO,YES,N,54,62,39,50,66,79,97,62,635,10,64,96,A,C,85.2,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490842,49,OSCEOLA,0842,LIBERTY HIGH SCHOOL,03,Senior High,NO,YES,N,46,57,37,48,59,74,88,37,569,10,57,96,B,C,98,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490851,49,OSCEOLA,0851,CYPRESS ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,48,59,48,69,42,,,,440,8,55,99,B,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490852,49,OSCEOLA,0852,ACADEMIR PREPARATORY OF CHAMPIONSGATE,01,Elementary,YES,NO,N,46,52,56,60,39,,,,438,8,55,99,B,C,62.7,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490853,49,OSCEOLA,0853,NEW DIMENSIONS HIGH SCHOOL,03,Senior High,YES,YES,N,70,69,61,71,77,74,97,98,771,10,77,99,A,A,84.1,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490862,49,OSCEOLA,0862,PROFESSIONAL & TECHNICAL HIGH SCHOOL,03,Senior High,NO,YES,N,92,70,79,64,92,97,100,100,838,10,84,100,A,A,61.3,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490863,49,OSCEOLA,0863,FOUR CORNERS CHARTER SCHOOL,01,Elementary,YES,YES,N,65,67,66,60,73,,,,513,8,64,99,A,B,79.4,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490866,49,OSCEOLA,0866,KISSIMMEE CHARTER ACADEMY,04,Combination,YES,YES,N,47,55,39,51,37,47,,,511,10,51,99,C,C,81.9,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490881,49,OSCEOLA,0881,P. M. WELLS CHARTER ACADEMY,04,Combination,YES,YES,N,50,53,40,47,54,59,,,512,10,51,100,C,C,85.9,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490901,49,OSCEOLA,0901,POINCIANA ACADEMY OF FINE ARTS,01,Elementary,NO,YES,N,45,58,35,49,39,,,,379,8,47,98,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490902,49,OSCEOLA,0902,CELEBRATION HIGH SCHOOL,03,Senior High,NO,NO,N,63,59,46,49,76,69,91,55,610,10,61,97,B,B,46,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490903,49,OSCEOLA,0903,ISLAND VILLAGE ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,47,53,49,49,45,,,,371,8,46,98,C,B,65.9,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490904,49,OSCEOLA,0904,PARTIN SETTLEMENT ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,53,53,49,51,55,,,,421,8,53,99,C,C,93.8,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490921,49,OSCEOLA,0921,OSCEOLA COUNTY SCHOOL FOR THE ARTS,04,Combination,NO,NO,N,88,70,86,68,90,97,100,80,919,11,84,100,A,A,38.3,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490922,49,OSCEOLA,0922,HARMONY HIGH SCHOOL,03,Senior High,NO,NO,N,59,57,51,56,81,69,91,59,635,10,64,98,A,B,41.1,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490931,49,OSCEOLA,0931,FLORA RIDGE ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,43,61,40,57,38,,,,410,8,51,100,C,C,80.6,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490932,49,OSCEOLA,0932,BELLALAGO CHARTER ACADEMY,04,Combination,YES,YES,N,56,56,55,58,51,71,,,580,10,58,100,B,B,82.4,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490933,49,OSCEOLA,0933,NEPTUNE ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,47,51,58,61,45,,,,396,8,50,100,C,C,85.6,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490957,49,OSCEOLA,0957,CHESTNUT ELEMENTARY SCHOOL FOR SCIENCE AND ENGINEERING,01,Elementary,NO,YES,N,45,54,51,53,44,,,,397,8,50,97,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490958,49,OSCEOLA,0958,SUNRISE ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,54,60,46,50,50,,,,412,8,52,99,C,C,92.5,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490961,49,OSCEOLA,0961,EAST LAKE ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,54,52,57,37,39,,,,387,8,48,100,C,C,73.6,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490962,49,OSCEOLA,0962,NEOCITY ACADEMY,03,Senior High,NO,NO,N,96,69,95,75,89,98,100,99,885,10,89,100,A,A,36.9,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490971,49,OSCEOLA,0971,MATER BRIGHTON LAKES ACADEMY PREPARATORY HIGH,03,Senior High,YES,YES,N,49,57,38,53,43,54,92,72,584,10,58,99,B,C,80.2,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+490991,49,OSCEOLA,0991,CANOE CREEK K-8,04,Combination,NO,NO,N,72,64,83,75,77,96,,,749,10,75,99,A,A,52.4,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+492941,49,OSCEOLA,2941,KNIGHTS POINT K-8,04,Combination,NO,NO,N,29,43,27,36,30,48,,,392,10,39,96,D,,83.9,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+492942,49,OSCEOLA,2942,VOYAGER K-8,04,Combination,NO,NO,N,71,68,81,77,77,94,,,769,10,77,96,A,,43.5,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+497004,49,OSCEOLA,7004,OSCEOLA VIRTUAL FRANCHISE (SECONDARY),04,Combination,NO,NO,N,84,61,64,52,74,100,95,49,770,11,70,100,A,A,12.9,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+497030,49,OSCEOLA,7030,VIRTUAL PREPARATORY ACADEMY OF FLORIDA,04,Combination,YES,NO,N,36,44,14,33,34,33,,,332,10,33,97,F,,68,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530031,53,POLK,0031,LAKELAND SENIOR HIGH SCHOOL,03,Senior High,NO,YES,N,61,59,28,37,69,72,91,70,597,10,60,97,B,B,80.5,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530043,53,POLK,0043,LAWTON CHILES MIDDLE ACADEMY,02,Middle/Junior,NO,NO,N,74,60,67,60,63,95,,,585,9,65,99,A,A,58.8,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530051,53,POLK,0051,SOUTHWEST MIDDLE SCHOOL,02,Middle/Junior,NO,YES,N,47,59,37,45,31,79,,,487,9,54,98,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530061,53,POLK,0061,CARLTON PALMORE ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,53,73,47,70,40,,,,475,8,59,100,B,C,98.8,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530081,53,POLK,0081,CLEVELAND COURT ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,75,67,80,73,60,,,,543,8,68,100,A,A,75.1,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530091,53,POLK,0091,COMBEE ACADEMY OF DESIGN AND ENGINEERING,01,Elementary,NO,YES,N,63,63,57,56,52,,,,475,8,59,100,B,B,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530101,53,POLK,0101,CRYSTAL LAKE ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,34,51,39,59,26,,,,351,8,44,98,C,D,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530131,53,POLK,0131,DIXIELAND ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,39,49,42,22,21,,,,293,8,37,100,D,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530141,53,POLK,0141,SOUTH POINTE ELEMENTARY,01,Elementary,NO,YES,N,51,48,54,40,46,,,,405,8,51,100,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530151,53,POLK,0151,PHILIP O'BRIEN ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,35,50,32,38,33,,,,325,8,41,99,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530181,53,POLK,0181,MEDULLA ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,44,36,42,38,46,,,,338,8,42,100,C,B,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530191,53,POLK,0191,R. BRUCE WAGNER ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,60,56,64,67,53,,,,466,8,58,100,B,B,97.2,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530201,53,POLK,0201,NORTH LAKELAND ELEMENTARY SCHOOL OF CHOICE,01,Elementary,NO,YES,N,28,39,32,35,28,,,,270,8,34,100,D,D,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530231,53,POLK,0231,SOUTHWEST ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,55,53,55,59,70,,,,432,8,54,100,B,B,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530251,53,POLK,0251,LINCOLN AVENUE ACADEMY,01,Elementary,NO,NO,N,83,67,85,75,80,,,,594,8,74,100,A,A,55.5,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530261,53,POLK,0261,ROCHELLE SCHOOL OF THE ARTS,04,Combination,NO,YES,N,64,58,63,64,60,95,,,656,10,66,99,A,A,76.5,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530311,53,POLK,0311,DANIEL JENKINS ACADEMY OF TECHNOLOGY MIDDLE SCHOOL,02,Middle/Junior,NO,YES,N,57,56,60,57,61,84,,,564,9,63,100,B,B,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530321,53,POLK,0321,SHELLEY S. BOONE MIDDLE SCHOOL,02,Middle/Junior,NO,YES,N,33,50,38,57,28,59,,,467,9,52,99,C,C,96.3,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530331,53,POLK,0331,ALTA VISTA ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,36,50,39,42,34,,,,328,8,41,98,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530341,53,POLK,0341,SANDHILL ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,43,52,35,34,29,,,,330,8,41,96,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530361,53,POLK,0361,EASTSIDE ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,32,45,46,60,35,,,,374,8,47,99,C,B,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530391,53,POLK,0391,BETHUNE ACADEMY,01,Elementary,NO,YES,N,57,53,62,62,38,,,,436,8,55,100,B,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530401,53,POLK,0401,DAVENPORT SCHOOL OF THE ARTS,04,Combination,NO,YES,N,71,62,75,62,68,96,,,722,10,72,100,A,A,63.5,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530441,53,POLK,0441,RIDGEVIEW GLOBAL STUDIES ACADEMY,04,Combination,YES,YES,N,74,68,73,66,70,88,96,54,827,12,69,100,A,A,68.6,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530481,53,POLK,0481,WINTER HAVEN SENIOR HIGH SCHOOL,03,Senior High,NO,YES,N,56,56,34,43,68,66,87,53,571,10,57,97,B,C,83.9,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530491,53,POLK,0491,DENISON MIDDLE SCHOOL,02,Middle/Junior,NO,YES,N,36,51,38,52,25,55,,,434,9,48,99,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530531,53,POLK,0531,FRANK E. BRIGHAM ACADEMY,01,Elementary,NO,YES,N,77,62,81,74,78,,,,571,8,71,100,A,A,69.8,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530571,53,POLK,0571,WESTWOOD MIDDLE SCHOOL,02,Middle/Junior,NO,YES,N,40,58,41,57,32,70,,,503,9,56,99,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530591,53,POLK,0591,ELBERT ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,41,46,40,41,44,,,,348,8,44,98,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530601,53,POLK,0601,FRED G. GARNER ACADEMY,01,Elementary,NO,YES,N,44,49,50,57,35,,,,400,8,50,100,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530611,53,POLK,0611,INWOOD ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,40,51,50,61,53,,,,418,8,52,99,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530621,53,POLK,0621,LAKE SHIPP ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,34,43,43,34,46,,,,340,8,43,96,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530631,53,POLK,0631,JOHN SNIVELY ELEMENTARY,01,Elementary,NO,YES,N,54,61,50,44,35,,,,450,8,56,97,B,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530651,53,POLK,0651,LAKE ALFRED ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,47,49,54,52,47,,,,390,8,49,98,C,B,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530681,53,POLK,0681,WAHNETA ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,39,43,51,59,62,,,,388,8,49,99,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530711,53,POLK,0711,JEWETT MIDDLE ACADEMY MAGNET,02,Middle/Junior,NO,YES,N,66,59,68,64,51,79,,,591,9,66,99,A,A,79.1,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530712,53,POLK,0712,JEWETT SCHOOL OF THE ARTS,04,Combination,NO,YES,N,58,60,55,57,55,86,,,640,10,64,99,A,B,89.6,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530791,53,POLK,0791,FORT MEADE MIDDLE/SENIOR HIGH SCHOOL,04,Combination,NO,YES,N,46,51,52,55,51,68,91,75,674,11,61,98,B,B,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530802,53,POLK,0802,LEWIS ANNA WOODBURY ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,47,47,46,47,41,,,,380,8,48,100,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530811,53,POLK,0811,AUBURNDALE SENIOR HIGH SCHOOL,03,Senior High,NO,YES,N,48,60,16,28,49,50,87,48,492,10,49,97,C,D,87.4,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530821,53,POLK,0821,JERE L. STAMBAUGH MIDDLE,02,Middle/Junior,NO,YES,N,38,51,40,54,29,61,,,450,9,50,98,C,D,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530841,53,POLK,0841,LENA VISTA ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,39,47,37,47,34,,,,345,8,43,100,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530851,53,POLK,0851,AUBURNDALE CENTRAL ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,44,55,33,36,48,,,,360,8,45,99,C,B,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530861,53,POLK,0861,WALTER CALDWELL ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,48,53,55,56,56,,,,414,8,52,100,C,B,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530881,53,POLK,0881,POLK CITY ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,42,41,48,45,29,,,,340,8,43,99,C,B,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530901,53,POLK,0901,BARTOW SENIOR HIGH SCHOOL,03,Senior High,NO,YES,N,54,56,24,33,64,67,96,63,559,10,56,96,C,C,76.7,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530925,53,POLK,0925,DAVENPORT ELEMENTARY,01,Elementary,NO,YES,N,46,50,44,47,48,,,,361,8,45,100,C,B,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530931,53,POLK,0931,BARTOW MIDDLE SCHOOL,02,Middle/Junior,NO,YES,N,44,51,45,50,28,72,,,477,9,53,99,C,C,94.5,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530933,53,POLK,0933,CHAIN OF LAKES ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,61,64,58,40,50,,,,417,8,52,100,C,A,80.8,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530937,53,POLK,0937,RIDGE COMMUNITY HIGH SCHOOL,03,Senior High,NO,YES,N,44,54,19,27,63,67,88,46,509,10,51,96,C,C,83.5,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530941,53,POLK,0941,BARTOW ELEMENTARY ACADEMY,01,Elementary,NO,YES,N,70,56,67,55,58,,,,457,8,57,100,B,B,70.7,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530961,53,POLK,0961,FLORAL AVENUE ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,44,59,47,58,49,,,,393,8,49,98,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+530971,53,POLK,0971,UNION ACADEMY,02,Middle/Junior,NO,NO,N,74,70,67,51,81,96,,,651,9,72,100,A,A,66.6,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531032,53,POLK,1032,CITRUS RIDGE A CIVICS ACADEMY,04,Combination,NO,YES,N,46,52,48,59,33,76,,,553,10,55,99,C,C,79.1,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531041,53,POLK,1041,ALTURAS ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,58,53,63,69,70,,,,458,8,57,100,B,A,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531051,53,POLK,1051,TENOROC HIGH SCHOOL,03,Senior High,NO,YES,N,41,49,16,29,51,70,78,40,470,10,47,98,C,C,99.8,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531061,53,POLK,1061,HIGHLAND CITY ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,55,47,69,68,46,,,,425,8,53,100,C,B,91.8,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531131,53,POLK,1131,MULBERRY SENIOR HIGH SCHOOL,03,Senior High,NO,YES,N,46,53,21,30,63,69,91,77,552,10,55,96,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531141,53,POLK,1141,PURCELL ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,41,57,39,54,35,,,,358,8,45,100,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531161,53,POLK,1161,MULBERRY MIDDLE SCHOOL,02,Middle/Junior,NO,YES,N,46,57,46,51,39,75,,,490,9,54,98,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531181,53,POLK,1181,KATHLEEN SENIOR HIGH SCHOOL,03,Senior High,NO,YES,N,46,56,24,40,61,65,79,48,531,10,53,97,C,D,98.3,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531191,53,POLK,1191,KATHLEEN MIDDLE SCHOOL,02,Middle/Junior,NO,YES,N,31,43,35,38,27,50,,,385,9,43,98,D,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531221,53,POLK,1221,KATHLEEN ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,42,48,45,48,47,,,,359,8,45,100,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531231,53,POLK,1231,GRIFFIN ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,36,54,50,56,53,,,,404,8,51,98,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531241,53,POLK,1241,JESSE KEEN ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,32,45,49,60,35,,,,357,8,45,99,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531251,53,POLK,1251,WINSTON ACADEMY OF ENGINEERING,01,Elementary,NO,YES,N,71,63,73,63,68,,,,502,8,63,100,A,B,82.5,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531271,53,POLK,1271,SLEEPY HILL ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,45,53,49,51,45,,,,379,8,47,99,C,B,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531281,53,POLK,1281,HIGHLANDS GROVE ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,67,63,72,79,66,,,,534,8,67,99,A,A,70.4,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531341,53,POLK,1341,MCLAUGHLIN ACADEMY OF EXCELLENCE,04,Combination,NO,YES,N,32,49,24,43,36,44,,,406,9,45,98,C,D,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531351,53,POLK,1351,POLK AVENUE ELEMENTARY SCHOOL,01,Elementary,YES,YES,N,47,51,45,42,43,,,,401,8,50,99,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531361,53,POLK,1361,HILLCREST ELEMENTARY SCHOOL,01,Elementary,YES,YES,N,56,64,70,63,49,,,,456,8,57,100,B,B,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531362,53,POLK,1362,HORIZONS ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,40,47,43,44,32,,,,357,8,45,99,C,C,92.6,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531371,53,POLK,1371,SPOOK HILL ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,31,38,37,50,53,,,,338,8,42,99,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531401,53,POLK,1401,JANIE HOWARD WILSON SCHOOL,01,Elementary,YES,YES,N,43,59,51,49,21,,,,369,8,46,97,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531421,53,POLK,1421,DALE R FAIR BABSON PARK ELEMENTARY,01,Elementary,YES,YES,N,59,51,66,62,61,,,,436,8,55,100,B,B,82.5,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531441,53,POLK,1441,WILLOW OAK SCHOOL,01,Elementary,NO,YES,N,46,54,54,60,35,,,,395,8,49,99,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531451,53,POLK,1451,EDGAR L. PADGETT ELEMENTARY,01,Elementary,NO,YES,N,43,50,52,59,48,,,,401,8,50,100,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531501,53,POLK,1501,CRYSTAL LAKE MIDDLE SCHOOL,02,Middle/Junior,NO,YES,N,31,44,23,37,19,55,,,361,9,40,99,D,D,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531521,53,POLK,1521,OSCAR J. POPE ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,37,46,38,42,43,,,,333,8,42,97,C,A,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531601,53,POLK,1601,BOK ACADEMY,02,Middle/Junior,YES,YES,N,57,54,59,60,49,83,,,546,9,61,100,B,B,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531611,53,POLK,1611,LAUREL ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,49,60,52,61,45,,,,431,8,54,100,B,B,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531621,53,POLK,1621,EDWARD W BOK ACADEMY NORTH,02,Middle/Junior,YES,YES,N,56,60,43,43,39,84,,,497,9,55,97,C,B,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531662,53,POLK,1662,LAKE ALFRED POLYTECH ACADEMY,02,Middle/Junior,NO,YES,N,47,60,50,52,40,82,,,525,9,58,100,B,C,99.3,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531671,53,POLK,1671,MCKEEL ACADEMY OF TECHNOLOGY,04,Combination,YES,NO,N,74,63,80,64,76,91,100,68,789,11,72,100,A,A,36.1,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531681,53,POLK,1681,SCOTT LAKE ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,61,49,65,49,50,,,,426,8,53,99,C,A,79.1,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531682,53,POLK,1682,MCKEEL ACADEMY CENTRAL,01,Elementary,YES,NO,N,82,74,87,74,74,,,,608,8,76,100,A,A,43.3,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531692,53,POLK,1692,SOUTH MCKEEL ACADEMY,01,Elementary,YES,NO,N,79,59,84,72,80,,,,574,8,72,100,A,A,56.2,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531701,53,POLK,1701,EAGLE LAKE ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,37,44,30,35,23,,,,294,8,37,100,D,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531702,53,POLK,1702,PALMETTO ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,38,52,35,29,46,,,,341,8,43,98,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531711,53,POLK,1711,GARDEN GROVE ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,47,58,45,58,56,,,,402,8,50,99,C,B,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531721,53,POLK,1721,LAKE WALES SENIOR HIGH SCHOOL,03,Senior High,YES,YES,N,59,55,44,46,72,74,93,46,588,10,59,98,B,B,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531731,53,POLK,1731,PINEWOOD ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,48,51,48,44,51,,,,388,8,49,99,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531751,53,POLK,1751,JAMES E. STEPHENS ACADEMY,01,Elementary,NO,YES,N,59,51,62,51,52,,,,451,8,56,99,B,B,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531761,53,POLK,1761,LAKE GIBSON MIDDLE SCHOOL,02,Middle/Junior,NO,YES,N,40,51,40,50,32,62,,,450,9,50,99,C,C,97.9,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531762,53,POLK,1762,LAKE GIBSON SENIOR HIGH SCHOOL,03,Senior High,NO,YES,N,44,51,23,36,69,58,93,78,550,10,55,97,C,C,85.6,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531771,53,POLK,1771,LAKELAND HIGHLANDS MIDDLE SCHOOL,02,Middle/Junior,NO,YES,N,60,57,58,47,56,84,,,537,9,60,98,B,B,68.9,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531781,53,POLK,1781,DUNDEE ELEMENTARY ACADEMY,01,Elementary,NO,YES,N,59,53,66,62,61,,,,476,8,60,100,B,A,85.8,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531791,53,POLK,1791,HAINES CITY SENIOR HIGH SCHOOL,03,Senior High,NO,YES,N,46,55,31,39,61,68,81,47,542,10,54,95,C,C,95.2,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531801,53,POLK,1801,FROSTPROOF MIDDLE/SENIOR HIGH,04,Combination,NO,YES,N,47,50,44,53,46,61,90,72,637,11,58,99,B,C,96.4,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531811,53,POLK,1811,CLARENCE BOSWELL ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,54,58,62,63,45,,,,474,8,59,100,B,B,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531821,53,POLK,1821,JAMES W. SIKES ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,60,54,57,46,54,,,,418,8,52,100,C,B,88.2,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531831,53,POLK,1831,LAKE MARION CREEK MIDDLE SCHOOL,02,Middle/Junior,NO,YES,N,40,50,41,58,28,56,,,467,9,52,99,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531841,53,POLK,1841,R. CLEM CHURCHWELL ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,46,45,40,33,27,,,,331,8,41,99,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531851,53,POLK,1851,DR. NE ROBERTS ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,45,47,45,43,51,,,,354,8,44,100,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531861,53,POLK,1861,ROSABELLE W. BLAKE ACADEMY,04,Combination,NO,YES,N,41,50,46,51,31,65,,,490,10,49,99,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531881,53,POLK,1881,WENDELL WATSON ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,46,51,47,48,43,,,,375,8,47,99,C,C,85.8,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531891,53,POLK,1891,VALLEYVIEW ELEMENTARY SCHOOL,01,Elementary,NO,NO,N,69,58,79,71,71,,,,511,8,64,100,A,A,59.9,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531901,53,POLK,1901,SOCRUM ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,38,61,56,68,52,,,,441,8,55,100,B,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531908,53,POLK,1908,SPESSARD L HOLLAND ELEMENTARY,01,Elementary,NO,YES,N,52,60,50,56,40,,,,412,8,52,99,C,B,94.1,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531921,53,POLK,1921,"FROSTPROOF BEN HILL GRIFFIN, JR ELEMENTARY SCHOOL",01,Elementary,NO,YES,N,46,52,51,55,48,,,,416,8,52,99,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531931,53,POLK,1931,GEORGE W. JENKINS SENIOR HIGH,03,Senior High,NO,NO,N,60,58,35,35,71,75,98,80,609,10,61,96,B,B,62.3,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531941,53,POLK,1941,LOUGHMAN OAKS ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,38,47,41,54,35,,,,340,8,43,98,C,C,78.9,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531951,53,POLK,1951,BERKLEY ELEMENTARY SCHOOL,01,Elementary,YES,NO,N,76,58,85,68,71,,,,558,8,70,100,A,A,37.6,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531961,53,POLK,1961,DISCOVERY ACADEMY OF LAKE ALFRED,02,Middle/Junior,YES,YES,N,57,61,54,56,54,83,,,557,9,62,99,B,B,79.3,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531971,53,POLK,1971,SLEEPY HILL MIDDLE SCHOOL,02,Middle/Junior,NO,YES,N,29,46,27,41,24,67,,,406,9,45,99,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531981,53,POLK,1981,DUNDEE RIDGE MIDDLE ACADEMY,02,Middle/Junior,NO,YES,N,58,57,58,53,51,87,,,561,9,62,100,B,B,97.3,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+531991,53,POLK,1991,LAKE REGION HIGH SCHOOL,03,Senior High,NO,YES,N,35,45,28,43,56,61,80,45,497,10,50,97,C,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+532002,53,POLK,2002,DAVENPORT HIGH SCHOOL,03,Senior High,NO,YES,N,49,54,27,37,60,68,87,58,543,10,54,96,C,C,64,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+532003,53,POLK,2003,BELLA CITTA,04,Combination,NO,YES,N,47,56,46,48,41,64,,,538,10,54,98,C,C,76.2,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+537001,53,POLK,7001,"K12 FLORIDA, LLC – GRADES KG-12",04,Combination,NO,NO,N,45,55,30,,,,,,130,3,43,91,D,D,,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+537023,53,POLK,7023,POLK FULL TIME ESCHOOL,04,Combination,NO,NO,N,52,46,29,39,48,74,75,43,584,12,49,94,C,C,8.2,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+538003,53,POLK,8003,POLK STATE LAKELAND GATEWAY TO COLLEGE COLLEGIATE HIGH SCHOOL,03,Senior High,YES,NO,N,,,29,47,75,72,96,96,415,6,69,97,A,B,50.2,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+538005,53,POLK,8005,MAGNOLIA MONTESSORI ACADEMY,04,Combination,YES,NO,N,85,70,90,65,81,94,,,737,10,74,100,A,A,11.2,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+538007,53,POLK,8007,NAVIGATOR ACADEMY OF LEADERSHIP DAVENPORT,04,Combination,YES,NO,N,51,61,54,70,31,67,,,578,10,58,99,B,C,52.5,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+538009,53,POLK,8009,BRIDGEPREP ACADEMY OF POLK,04,Combination,YES,YES,N,54,68,42,65,40,65,,,593,10,59,99,B,C,100,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+538010,53,POLK,8010,MATER ACADEMY DAVENPORT,01,Elementary,YES,YES,N,52,51,60,53,61,,,,442,8,55,100,B,B,80.6,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+538020,53,POLK,8020,MATER ACADEMY DAVENPORT MIDDLE SCHOOL,02,Middle/Junior,YES,YES,N,65,62,54,58,,67,,,421,7,60,100,B,B,81.1,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+538121,53,POLK,8121,HARTRIDGE ACADEMY,01,Elementary,YES,YES,N,70,60,82,61,63,,,,467,7,67,94,A,B,74.4,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+538131,53,POLK,8131,POLK STATE COLLEGE COLLEGIATE HIGH SCHOOL,03,Senior High,YES,NO,N,100,93,100,92,,100,100,100,785,8,98,100,A,A,12.4,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+538133,53,POLK,8133,CHAIN OF LAKES COLLEGIATE HIGH,03,Senior High,YES,NO,N,95,85,68,61,100,85,100,100,786,9,87,99,A,A,41.1,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+538141,53,POLK,8141,LAKELAND MONTESSORI SCHOOL HOUSE,04,Combination,YES,NO,N,88,68,89,76,52,82,,,767,10,77,100,A,A,6.6,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+538142,53,POLK,8142,BERKLEY ACCELERATED,04,Combination,YES,NO,N,74,66,73,54,66,85,,,609,9,68,100,A,A,36.4,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+538171,53,POLK,8171,CYPRESS JUNCTION MONTESSORI,04,Combination,YES,NO,N,57,57,52,52,40,66,,,577,10,58,100,B,C,27.1,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+538181,53,POLK,8181,DISCOVERY HIGH SCHOOL,03,Senior High,YES,YES,N,42,47,18,21,47,55,97,37,455,10,46,99,C,C,73.8,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+538201,53,POLK,8201,MI ESCUELA MONTESSORI,04,Combination,YES,NO,N,56,56,46,56,55,64,,,472,9,52,100,C,B,54.8,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590021,59,SEMINOLE,0021,HAMILTON ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,66,63,67,64,66,,,,515,8,64,98,A,B,79.6,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590031,59,SEMINOLE,0031,BEAR LAKE ELEMENTARY SCHOOL,01,Elementary,NO,NO,N,57,62,51,57,54,,,,468,8,59,98,B,C,62.5,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590041,59,SEMINOLE,0041,ENGLISH ESTATES ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,60,55,52,45,46,,,,420,8,53,100,C,B,73.5,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590051,59,SEMINOLE,0051,GENEVA ELEMENTARY SCHOOL,01,Elementary,NO,NO,N,71,64,71,66,79,,,,531,8,66,100,A,A,43.3,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590071,59,SEMINOLE,0071,LAKE MARY HIGH SCHOOL,03,Senior High,NO,NO,N,62,58,45,42,75,79,92,62,620,10,62,97,B,A,43.1,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590081,59,SEMINOLE,0081,LAKE MARY ELEMENTARY SCHOOL,01,Elementary,NO,NO,N,68,62,68,54,65,,,,489,8,61,99,B,B,51.3,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590091,59,SEMINOLE,0091,LONGWOOD ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,63,52,63,70,63,,,,469,8,59,100,B,A,66.7,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590101,59,SEMINOLE,0101,MILWEE MIDDLE SCHOOL,02,Middle/Junior,NO,YES,N,62,62,59,53,57,69,,,549,9,61,98,B,C,64.1,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590111,59,SEMINOLE,0111,EVANS ELEMENTARY SCHOOL,01,Elementary,NO,NO,N,73,68,78,80,74,,,,579,8,72,100,A,A,39.2,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590121,59,SEMINOLE,0121,LAYER ELEMENTARY SCHOOL,01,Elementary,NO,NO,N,75,75,71,72,64,,,,556,8,70,100,A,A,50.5,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590131,59,SEMINOLE,0131,LAWTON ELEMENTARY SCHOOL,01,Elementary,NO,NO,N,78,58,79,69,86,,,,541,8,68,99,A,A,29.5,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590141,59,SEMINOLE,0141,PINE CREST ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,40,51,48,48,55,,,,372,8,47,99,C,C,93.9,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590151,59,SEMINOLE,0151,SANFORD MIDDLE SCHOOL,02,Middle/Junior,NO,NO,N,72,69,80,74,70,84,,,662,9,74,99,A,A,45.8,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590171,59,SEMINOLE,0171,WALKER ELEMENTARY SCHOOL,01,Elementary,NO,NO,N,74,66,80,75,83,,,,568,8,71,99,A,A,24.8,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590181,59,SEMINOLE,0181,SEMINOLE HIGH SCHOOL,03,Senior High,NO,NO,N,59,62,43,49,68,74,88,56,616,10,62,95,B,C,53.9,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590182,59,SEMINOLE,0182,MILLENNIUM MIDDLE SCHOOL,02,Middle/Junior,NO,YES,N,47,53,49,46,46,63,,,466,9,52,96,C,C,70,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590201,59,SEMINOLE,0201,SOUTH SEMINOLE MIDDLE SCHOOL,02,Middle/Junior,NO,YES,N,57,58,50,50,44,76,,,501,9,56,97,C,B,72.3,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590202,59,SEMINOLE,0202,CASSELBERRY ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,68,63,77,70,59,,,,539,8,67,98,A,A,69.7,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590231,59,SEMINOLE,0231,WILSON ELEMENTARY SCHOOL,01,Elementary,NO,NO,N,78,68,81,69,76,,,,561,8,70,100,A,A,25.8,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590251,59,SEMINOLE,0251,CROOMS ACADEMY OF INFORMATION TECHNOLOGY,03,Senior High,NO,NO,N,80,74,66,62,93,91,100,83,782,10,78,99,A,A,42.2,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590271,59,SEMINOLE,0271,GOLDSBORO ELEMENTARY MAGNET,01,Elementary,NO,NO,N,78,72,76,80,90,,,,595,8,74,100,A,A,31.1,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590291,59,SEMINOLE,0291,JACKSON HEIGHTS MIDDLE SCHOOL,02,Middle/Junior,NO,NO,N,72,63,81,72,75,89,,,664,9,74,98,A,A,33.3,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590301,59,SEMINOLE,0301,MIDWAY ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,54,50,53,57,43,,,,404,8,51,100,C,C,85.9,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590331,59,SEMINOLE,0331,HIGHLANDS ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,69,63,71,57,73,,,,468,8,59,100,B,A,65.8,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590361,59,SEMINOLE,0361,RAINBOW ELEMENTARY SCHOOL,01,Elementary,NO,NO,N,88,80,88,85,90,,,,665,8,83,100,A,A,36.7,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590391,59,SEMINOLE,0391,WINTER SPRINGS ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,53,51,57,63,47,,,,439,8,55,100,B,B,77.4,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590401,59,SEMINOLE,0401,SPRING LAKE ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,50,56,50,53,66,,,,424,8,53,100,C,A,87.6,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590421,59,SEMINOLE,0421,OVIEDO HIGH SCHOOL,03,Senior High,NO,NO,N,71,64,62,62,82,83,97,75,721,10,72,97,A,A,33.4,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590431,59,SEMINOLE,0431,LYMAN HIGH SCHOOL,03,Senior High,NO,NO,N,60,64,38,52,70,72,93,60,626,10,63,98,B,B,55.7,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590441,59,SEMINOLE,0441,CARILLON ELEMENTARY SCHOOL,01,Elementary,NO,NO,N,69,60,75,67,73,,,,517,8,65,100,A,A,28.4,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590491,59,SEMINOLE,0491,LAKE BRANTLEY HIGH SCHOOL,03,Senior High,NO,NO,N,66,64,45,51,67,75,98,55,643,10,64,96,A,B,46.5,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590501,59,SEMINOLE,0501,TEAGUE MIDDLE SCHOOL,02,Middle/Junior,NO,YES,N,63,65,69,68,61,75,,,617,9,69,99,A,B,61.3,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590502,59,SEMINOLE,0502,FOREST CITY ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,64,67,72,79,66,,,,557,8,70,98,A,B,78.2,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590511,59,SEMINOLE,0511,RED BUG ELEMENTARY SCHOOL,01,Elementary,NO,NO,N,66,55,64,58,64,,,,465,8,58,100,B,B,49.3,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590521,59,SEMINOLE,0521,IDYLLWILDE ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,49,55,53,57,46,,,,429,8,54,99,B,C,82,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590531,59,SEMINOLE,0531,EASTBROOK ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,65,63,64,63,47,,,,483,8,60,99,B,C,62.8,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590541,59,SEMINOLE,0541,TUSKAWILLA MIDDLE SCHOOL,02,Middle/Junior,NO,NO,N,61,62,72,70,62,77,,,613,9,68,98,A,B,52.1,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590551,59,SEMINOLE,0551,LAKE HOWELL HIGH SCHOOL,03,Senior High,NO,NO,N,63,64,48,58,75,76,98,57,664,10,66,96,A,A,53,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590561,59,SEMINOLE,0561,ALTAMONTE ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,54,57,54,64,48,,,,451,8,56,96,B,B,84.5,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590581,59,SEMINOLE,0581,SABAL POINT ELEMENTARY SCHOOL,01,Elementary,NO,NO,N,84,74,84,76,81,,,,598,8,75,99,A,A,35.7,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590591,59,SEMINOLE,0591,WOODLANDS ELEMENTARY SCHOOL,01,Elementary,NO,NO,N,80,64,82,70,78,,,,570,8,71,100,A,A,36.6,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590601,59,SEMINOLE,0601,LAKE ORIENTA ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,55,49,44,45,55,,,,371,8,46,100,C,B,74.8,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590611,59,SEMINOLE,0611,STERLING PARK ELEMENTARY SCHOOL,01,Elementary,NO,NO,N,67,64,60,51,62,,,,476,8,60,99,B,C,55,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590621,59,SEMINOLE,0621,ROCK LAKE MIDDLE SCHOOL,02,Middle/Junior,NO,NO,N,70,59,82,69,68,81,,,623,9,69,99,A,A,40.3,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590651,59,SEMINOLE,0651,WEKIVA ELEMENTARY SCHOOL,01,Elementary,NO,NO,N,71,60,68,61,71,,,,516,8,65,100,A,A,38.3,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590661,59,SEMINOLE,0661,KEETH ELEMENTARY SCHOOL,01,Elementary,NO,NO,N,81,71,79,69,84,,,,582,8,73,100,A,A,31.2,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590671,59,SEMINOLE,0671,GREENWOOD LAKES MIDDLE SCHOOL,02,Middle/Junior,NO,YES,N,61,60,66,68,57,81,,,593,9,66,98,A,B,62,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590681,59,SEMINOLE,0681,STENSTROM ELEMENTARY SCHOOL,01,Elementary,NO,NO,N,73,65,72,68,84,,,,556,8,70,100,A,A,43.6,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590691,59,SEMINOLE,0691,HEATHROW ELEMENTARY SCHOOL,01,Elementary,NO,NO,N,85,74,87,79,85,,,,628,8,79,100,A,A,19,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590701,59,SEMINOLE,0701,PARTIN ELEMENTARY SCHOOL,01,Elementary,NO,NO,N,81,66,83,69,80,,,,585,8,73,99,A,A,28.8,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590711,59,SEMINOLE,0711,INDIAN TRAILS MIDDLE SCHOOL,02,Middle/Junior,NO,NO,N,71,62,67,56,67,83,,,596,9,66,98,A,B,42.8,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590721,59,SEMINOLE,0721,CHILES MIDDLE SCHOOL,02,Middle/Junior,NO,NO,N,77,67,82,71,71,86,,,663,9,74,99,A,A,26.9,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590731,59,SEMINOLE,0731,MARKHAM WOODS MIDDLE SCHOOL,02,Middle/Junior,NO,NO,N,56,54,68,69,61,77,,,580,9,64,98,A,B,51.1,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590801,59,SEMINOLE,0801,BENTLEY ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,58,66,62,73,55,,,,498,8,62,99,A,C,72.1,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590811,59,SEMINOLE,0811,WICKLOW ELEMENTARY SCHOOL,01,Elementary,NO,YES,N,43,47,43,39,38,,,,339,8,42,99,C,C,88.4,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590821,59,SEMINOLE,0821,CRYSTAL LAKE ELEMENTARY SCHOOL,01,Elementary,NO,NO,N,60,62,60,47,61,,,,441,8,55,100,B,B,54.3,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590911,59,SEMINOLE,0911,WINTER SPRINGS HIGH SCHOOL,03,Senior High,NO,NO,N,62,65,49,60,59,83,93,56,651,10,65,98,A,A,49.4,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+590931,59,SEMINOLE,0931,HAGERTY HIGH SCHOOL,03,Senior High,NO,NO,N,76,66,60,59,84,91,98,69,713,10,71,98,A,A,21.4,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+597004,59,SEMINOLE,7004,A SEMINOLE COUNTY VIRTUAL SCHOOL,04,Combination,NO,NO,N,82,67,73,53,76,77,89,38,728,11,66,99,A,A,26.3,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+599229,59,SEMINOLE,9229,CHOICES IN LEARNING CHARTER,01,Elementary,YES,NO,N,90,75,91,86,89,,,,680,8,85,100,A,A,19.1,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+599233,59,SEMINOLE,9233,GALILEO SCHOOL FOR GIFTED LEARNING,04,Combination,YES,NO,N,70,64,73,65,61,88,,,710,10,71,99,A,A,30.3,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+599236,59,SEMINOLE,9236,SEMINOLE SCIENCE CHARTER SCHOOL,04,Combination,YES,NO,N,81,72,82,69,80,83,,,767,10,77,100,A,A,26.4,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx
+599255,59,SEMINOLE,9255,GALILEO SCHOOL FOR GIFTED LEARNING SKYWAY,04,Combination,YES,NO,N,72,63,73,66,70,82,,,691,10,69,100,A,A,29.4,https://www.fldoe.org/file/18534/SchoolGrades25.xlsx

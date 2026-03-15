@@ -1,0 +1,7 @@
+tab_name,layer_type,primary_dataset,score_field,default_filter,tooltip_fields,legend_logic,notes
+Elementary,Polygon choropleth,zone_master + school_performance,public_zone_score,grade_band=Elementary,school_name; fl_school_grade; public_zone_score,0-100 continuous or 5-band legend,Use actual attendance polygons
+Middle,Polygon choropleth,zone_master + school_performance,public_zone_score,grade_band=Middle,school_name; fl_school_grade; public_zone_score,same as elementary,Consistent legend
+High,Polygon choropleth,zone_master + school_performance,public_zone_score,grade_band=High,school_name; fl_school_grade; graduation_pct; readiness_pct,same as elementary,Include high-school outcomes
+Magnet,Point layer,school_master + program_master,,program_type=Magnet,school_name; grades_served; program_name,categorical,Do not fake residential zones
+Charter,Point layer,school_master + program_master,,is_charter=TRUE,school_name; grades_served; fl_school_grade,categorical or clustered,Optional clustering
+Private,Point layer,school_master + program_master,,is_private=TRUE,school_name; grades_served; notes,categorical,Current workbook delivers score-ready public-school data plus source register; full polygon heat map still needs final district geometry pull.
