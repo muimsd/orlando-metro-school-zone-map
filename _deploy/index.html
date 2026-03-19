@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Orlando Metro School Zone Quality Map</title>
+<script src="https://unpkg.com/maplibre-gl@5.20.2/dist/maplibre-gl.js"></script>
+<link href="https://unpkg.com/maplibre-gl@5.20.2/dist/maplibre-gl.css" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+#map { position: absolute; top: 0; bottom: 0; left: 0; right: 0; }
+.sidebar {
+  position: absolute; top: 10px; left: 10px; z-index: 10;
+  background: rgba(255,255,255,0.97); border-radius: 12px;
+  padding: 16px; width: 290px; box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+  max-height: calc(100vh - 20px); overflow-y: auto;
+}
+.sidebar h1 { font-size: 15px; margin-bottom: 2px; color: #1a1a2e; }
+.sidebar .subtitle { font-size: 10px; color: #888; margin-bottom: 12px; line-height: 1.3; }
+.tab-bar { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 12px; }
+.tab-btn { padding: 6px 10px; border: 1px solid #ddd; border-radius: 6px; background: #f5f5f5; cursor: pointer; font-size: 11px; font-weight: 500; transition: all 0.15s; }
+.tab-btn:hover { background: #e0e0e0; }
+.tab-btn.active { background: #1a1a2e; color: white; border-color: #1a1a2e; }
+.legend { margin-top: 10px; }
+.legend h3 { font-size: 11px; margin-bottom: 6px; color: #555; text-transform: uppercase; letter-spacing: 0.5px; }
+.legend-item { display: flex; align-items: center; gap: 8px; margin-bottom: 3px; font-size: 11px; color: #444; }
+.legend-dot { width: 14px; height: 14px; border-radius: 3px; border: 1px solid rgba(0,0,0,0.1); flex-shrink: 0; }
+.stats-box { background: #f8f9fa; border-radius: 8px; padding: 10px; margin-top: 10px; font-size: 11px; }
+.stats-box .stat-row { display: flex; justify-content: space-between; margin-bottom: 2px; }
+.stats-box .stat-val { font-weight: 600; }
+.district-filters { margin-top: 10px; }
+.district-filters h3 { font-size: 11px; margin-bottom: 4px; color: #555; text-transform: uppercase; letter-spacing: 0.5px; }
+.district-cb { display: flex; align-items: center; gap: 6px; margin-bottom: 2px; font-size: 11px; cursor: pointer; }
+.toggle-row { display: flex; align-items: center; gap: 6px; margin-top: 6px; font-size: 11px; }
+.toggle-row input { cursor: pointer; }
+.toggle-row label { cursor: pointer; }
+.search-box { margin-bottom: 10px; }
+.search-box input { width: 100%; padding: 7px 10px; border: 1px solid #ddd; border-radius: 6px; font-size: 11px; outline: none; }
+.search-box input:focus { border-color: #1a1a2e; box-shadow: 0 0 0 2px rgba(26,26,46,0.1); }
+.maplibregl-popup-content { padding: 14px; border-radius: 10px; min-width: 240px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+.popup-name { font-size: 13px; font-weight: 700; margin-bottom: 4px; color: #1a1a2e; }
+.popup-grade-badge { display: inline-block; padding: 2px 10px; border-radius: 12px; color: white; font-weight: 700; font-size: 12px; margin-bottom: 8px; }
+.popup-row { display: flex; justify-content: space-between; font-size: 11px; margin-bottom: 2px; color: #555; }
+.popup-row span:last-child { font-weight: 600; color: #333; }
+.popup-divider { border-top: 1px solid #eee; margin: 6px 0; }
+.popup-bar { height: 6px; border-radius: 3px; background: #eee; margin: 2px 0; overflow: hidden; }
+.popup-bar-fill { height: 100%; border-radius: 3px; }
+.data-source { margin-top: 12px; padding-top: 8px; border-top: 1px solid #eee; font-size: 9px; color: #aaa; line-height: 1.4; }
+</style>
+</head>
+<body>
+<div id="map"></div>
+<div class="sidebar">
+  <h1>Orlando Metro School Zones</h1>
+  <div class="subtitle">
+    Seminole &bull; Lake &bull; Osceola &bull; Polk<br>
+    2025 FL DOE Grades &bull; Official NCES Coordinates<br>
+    All 4 districts: official attendance boundaries
+  </div>
+  <div class="search-box"><input type="text" id="search" placeholder="Search schools..." autocomplete="off"></div>
+  <div class="tab-bar">
+    <button class="tab-btn active" data-tab="elementary">Elementary</button>
+    <button class="tab-btn" data-tab="middle">Middle</button>
+    <button class="tab-btn" data-tab="high">High</button>
+    <button class="tab-btn" data-tab="magnet">Magnet</button>
+    <button class="tab-btn" data-tab="charter">Charter</button>
+    <button class="tab-btn" data-tab="private">Private</button>
+    <button class="tab-btn" data-tab="all">All</button>
+  </div>
+  <div class="district-filters">
+    <h3>Districts</h3>
+    <label class="district-cb"><input type="checkbox" data-district="ORANGE" checked> Orange</label>
+    <label class="district-cb"><input type="checkbox" data-district="SEMINOLE" checked> Seminole</label>
+    <label class="district-cb"><input type="checkbox" data-district="LAKE" checked> Lake</label>
+    <label class="district-cb"><input type="checkbox" data-district="OSCEOLA" checked> Osceola</label>
+    <label class="district-cb"><input type="checkbox" data-district="POLK" checked> Polk</label>
+  </div>
+  <div class="toggle-row"><input type="checkbox" id="showZones" checked><label for="showZones">Show attendance zone boundaries</label></div>
+  <div class="toggle-row"><input type="checkbox" id="showHeat" checked><label for="showHeat">Show heatmap at low zoom</label></div>
+  <div class="legend">
+    <h3>School Grade (FL DOE 2025)</h3>
+    <div class="legend-item"><div class="legend-dot" style="background:#16a34a"></div>A &mdash; Excellent</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#65a30d"></div>B &mdash; Good</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#eab308"></div>C &mdash; Average</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#ea580c"></div>D &mdash; Below Average</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#dc2626"></div>F &mdash; Failing</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#a855f7"></div>Magnet</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#6366f1"></div>Private (not graded)</div>
+  </div>
+  <div id="stats" class="stats-box"></div>
+  <div class="data-source">
+    <strong>Sources:</strong> FL DOE SchoolGrades25.xlsx &bull; NCES EDGE 2023-24 &bull; NCES PSS 2021-22 &bull; NCES SABS 2015-16 (Seminole; some middle/high zones may differ from current assignments) &bull; Polk County Schools ArcGIS 2025-26 &bull; Lake County ArcGIS 2025 &bull; Osceola Schools Shapefiles May 2025 &bull; FL School Choice Magnet Directory
+  </div>
+</div>
+
+<script>
+
+let SCHOOLS = {};
+let BOUNDARIES = {};
+let dataLoaded = false;
+const GRADE_COLORS = {'A':'#16a34a','B':'#65a30d','C':'#eab308','D':'#ea580c','F':'#dc2626'};
+const map = new maplibregl.Map({container:'map',style:'https://basemaps.cartocdn.com/gl/positron-gl-style/style.json',center:[-81.45,28.30],zoom:8.5,maxZoom:16,minZoom:7});
+map.addControl(new maplibregl.NavigationControl(),'top-right');
+map.addControl(new maplibregl.FullscreenControl(),'top-right');
+let activeTab='elementary',activeDistricts=new Set(['ORANGE','SEMINOLE','LAKE','OSCEOLA','POLK']),searchTerm='';
+async function loadData(){
+  const [schools,elemB,midB,highB]=await Promise.all([
+    fetch('data.schools.json').then(r=>r.json()),
+    fetch('data.boundaries.elementary.json').then(r=>r.json()),
+    fetch('data.boundaries.middle.json').then(r=>r.json()),
+    fetch('data.boundaries.high.json').then(r=>r.json()),
+  ]);
+  SCHOOLS=schools;
+  BOUNDARIES={elementary:elemB,middle:midB,high:highB};
+  dataLoaded=true;
+}
+function getVisibleSchools(){
+  let f;
+  if(activeTab==='all'){f=[];Object.values(SCHOOLS).forEach(fc=>f.push(...fc.features));}
+  else{f=(SCHOOLS[activeTab]||{features:[]}).features;}
+  return f.filter(x=>activeDistricts.has(x.properties.district)&&(!searchTerm||x.properties.name.toLowerCase().includes(searchTerm)));
+}
+function getVisibleBoundaries(){
+  if(['charter','private','magnet'].includes(activeTab))return[];
+  const cats=activeTab==='all'?['elementary','middle','high']:[activeTab];
+  let f=[];
+  cats.forEach(c=>(BOUNDARIES[c]||{features:[]}).features.forEach(x=>{if(activeDistricts.has(x.properties.district))f.push(x);}));
+  return f;
+}
+function updateStats(f){
+  const b=document.getElementById('stats');
+  if(!f.length){b.innerHTML='<div style="color:#999">No schools visible</div>';return;}
+  const g={};let ts=0,c=0;
+  f.forEach(x=>{const gr=x.properties.grade;g[gr]=(g[gr]||0)+1;if(x.properties.score>0){ts+=x.properties.score;c++;}});
+  let h=`<div class="stat-row"><span>Schools shown</span><span class="stat-val">${f.length}</span></div>`;
+  if(c>0)h+=`<div class="stat-row"><span>Avg zone score</span><span class="stat-val">${(ts/c).toFixed(1)}</span></div>`;
+  ['A','B','C','D','F','N/A'].forEach(x=>{if(g[x])h+=`<div class="stat-row"><span>${x==='N/A'?'Not graded':'Grade '+x}</span><span class="stat-val">${g[x]}</span></div>`;});
+  b.innerHTML=h;
+}
+function updateMap(){
+  const s=getVisibleSchools(),bo=getVisibleBoundaries();
+  const ss=map.getSource('schools'),bs=map.getSource('boundaries');
+  if(ss)ss.setData({type:'FeatureCollection',features:s});
+  if(bs)bs.setData({type:'FeatureCollection',features:bo});
+  updateStats(s);
+}
+map.on('load',async()=>{
+  await loadData();
+  map.addSource('boundaries',{type:'geojson',data:{type:'FeatureCollection',features:getVisibleBoundaries()}});
+  map.addLayer({id:'zone-fill',type:'fill',source:'boundaries',paint:{'fill-color':['match',['get','grade'],'A','rgba(22,163,74,0.35)','B','rgba(101,163,13,0.28)','C','rgba(234,179,8,0.25)','D','rgba(234,88,12,0.30)','F','rgba(220,38,38,0.35)','rgba(148,163,184,0.12)'],'fill-opacity':0.9}});
+  map.addLayer({id:'zone-outline',type:'line',source:'boundaries',paint:{'line-color':['match',['get','grade'],'A','#16a34a','B','#65a30d','C','#eab308','D','#ea580c','F','#dc2626','#94a3b8'],'line-width':1.5,'line-opacity':0.7}});
+  map.addLayer({id:'zone-labels',type:'symbol',source:'boundaries',minzoom:10,layout:{'text-field':['concat',['get','zone_name'],'\n',['get','grade']],'text-size':11,'text-font':['Open Sans Semibold','Arial Unicode MS Bold']},paint:{'text-color':'#333','text-halo-color':'rgba(255,255,255,0.9)','text-halo-width':1.5}});
+  map.addSource('schools',{type:'geojson',data:{type:'FeatureCollection',features:getVisibleSchools()}});
+  map.addLayer({id:'schools-heat',type:'heatmap',source:'schools',maxzoom:12,paint:{'heatmap-weight':['interpolate',['linear'],['get','score'],0,0.1,100,1],'heatmap-intensity':['interpolate',['linear'],['zoom'],7,0.6,12,1.5],'heatmap-color':['interpolate',['linear'],['heatmap-density'],0,'rgba(0,0,0,0)',0.1,'#dc2626',0.3,'#ea580c',0.5,'#eab308',0.7,'#65a30d',1,'#16a34a'],'heatmap-radius':['interpolate',['linear'],['zoom'],7,30,12,45],'heatmap-opacity':['interpolate',['linear'],['zoom'],10,0.7,12,0]}});
+  map.addLayer({id:'schools-circles',type:'circle',source:'schools',minzoom:9,paint:{'circle-radius':['interpolate',['linear'],['get','score'],0,5,30,7,50,9,70,12,90,16],'circle-color':['match',['get','type'],'Private','#6366f1','Magnet','#a855f7',['match',['get','grade'],'A','#16a34a','B','#65a30d','C','#eab308','D','#ea580c','F','#dc2626','#94a3b8']],'circle-stroke-width':2,'circle-stroke-color':['match',['get','type'],'Private','#6366f1','Magnet','#a855f7','#fff'],'circle-opacity':['interpolate',['linear'],['zoom'],9,0,10.5,0.9]}});
+  map.addLayer({id:'schools-labels',type:'symbol',source:'schools',minzoom:12.5,layout:{'text-field':['get','name'],'text-size':10,'text-offset':[0,1.6],'text-anchor':'top','text-max-width':12,'text-font':['Open Sans Regular','Arial Unicode MS Regular']},paint:{'text-color':'#1a1a2e','text-halo-color':'#fff','text-halo-width':1.5}});
+  updateStats(getVisibleSchools());
+  map.on('click','schools-circles',(e)=>{
+    const p=e.features[0].properties;const isPvt=p.type==='Private';const isMag=p.type==='Magnet';
+    const gc=isPvt?'#6366f1':isMag?'#a855f7':(GRADE_COLORS[p.grade]||'#94a3b8');const score=Number(p.score);
+    let h=`<div class="popup-name">${p.name}</div>`;
+    if(isPvt){h+=`<div class="popup-grade-badge" style="background:#6366f1">Private</div>`;h+=`<div class="popup-row"><span>District</span><span>${p.district}</span></div>`;h+=`<div class="popup-row"><span>City</span><span>${p.city||''}</span></div>`;h+=`<div class="popup-row"><span>Level</span><span>${p.level||''}</span></div>`;h+=`<div class="popup-row"><span>Religious</span><span>${p.religious||''}</span></div>`;}
+    else if(isMag){h+=`<div class="popup-grade-badge" style="background:#a855f7">Magnet</div>`;h+=`<div class="popup-row"><span>District</span><span>${p.district}</span></div>`;h+=`<div class="popup-row"><span>Specialty</span><span>${p.magnet_specialty||''}</span></div>`;h+=`<div class="popup-row"><span>Grade</span><span>${p.grade}</span></div>`;if(score>0){h+='<div class="popup-divider"></div>';h+=`<div class="popup-row"><span>Zone Score</span><span>${score.toFixed(1)}/100</span></div>`;h+=`<div class="popup-bar"><div class="popup-bar-fill" style="width:${score}%;background:${gc}"></div></div>`;}}
+    else{h+=`<div class="popup-grade-badge" style="background:${gc}">Grade ${p.grade}</div>`;h+=`<div class="popup-row"><span>District</span><span>${p.district}</span></div>`;h+=`<div class="popup-row"><span>Type</span><span>${p.type}${p.is_charter==='YES'?' (Charter)':''}</span></div>`;if(p.grades_served)h+=`<div class="popup-row"><span>Grades</span><span>${p.grades_served}</span></div>`;h+='<div class="popup-divider"></div>';h+=`<div class="popup-row"><span>Zone Score</span><span>${score.toFixed(1)}/100</span></div>`;h+=`<div class="popup-bar"><div class="popup-bar-fill" style="width:${score}%;background:${gc}"></div></div>`;h+=`<div class="popup-row"><span>ELA</span><span>${Number(p.ela_pct).toFixed(0)}%</span></div>`;h+=`<div class="popup-row"><span>Math</span><span>${Number(p.math_pct).toFixed(0)}%</span></div>`;h+=`<div class="popup-row"><span>Growth</span><span>${Number(p.growth_pct).toFixed(0)}%</span></div>`;if(Number(p.grad_pct)>0)h+=`<div class="popup-row"><span>Graduation</span><span>${Number(p.grad_pct).toFixed(0)}%</span></div>`;}
+    new maplibregl.Popup({offset:15,maxWidth:'280px'}).setLngLat(e.lngLat).setHTML(h).addTo(map);
+  });
+  map.on('click','zone-fill',(e)=>{
+    if(!e.features[0])return;const p=e.features[0].properties;const gc=GRADE_COLORS[p.grade]||'#94a3b8';const score=Number(p.score);
+    let h=`<div class="popup-name">${p.zone_name} Zone</div>`;
+    if(p.grade!=='N/A')h+=`<div class="popup-grade-badge" style="background:${gc}">Grade ${p.grade}</div>`;
+    h+=`<div class="popup-row"><span>District</span><span>${p.district}</span></div>`;h+=`<div class="popup-row"><span>Level</span><span>${p.grade_band}</span></div>`;
+    if(score>0){h+='<div class="popup-divider"></div>';h+=`<div class="popup-row"><span>Zone Score</span><span>${score.toFixed(1)}/100</span></div>`;h+=`<div class="popup-bar"><div class="popup-bar-fill" style="width:${score}%;background:${gc}"></div></div>`;}
+    new maplibregl.Popup({offset:15,maxWidth:'260px'}).setLngLat(e.lngLat).setHTML(h).addTo(map);
+  });
+  map.on('mouseenter','schools-circles',()=>map.getCanvas().style.cursor='pointer');
+  map.on('mouseleave','schools-circles',()=>map.getCanvas().style.cursor='');
+  map.on('mouseenter','zone-fill',()=>map.getCanvas().style.cursor='pointer');
+  map.on('mouseleave','zone-fill',()=>map.getCanvas().style.cursor='');
+});
+document.querySelectorAll('.tab-btn').forEach(b=>{b.addEventListener('click',()=>{document.querySelectorAll('.tab-btn').forEach(x=>x.classList.remove('active'));b.classList.add('active');activeTab=b.dataset.tab;updateMap();});});
+document.querySelectorAll('.district-cb input').forEach(cb=>{cb.addEventListener('change',()=>{if(cb.checked)activeDistricts.add(cb.dataset.district);else activeDistricts.delete(cb.dataset.district);updateMap();});});
+document.getElementById('search').addEventListener('input',(e)=>{searchTerm=e.target.value.toLowerCase();updateMap();});
+document.getElementById('showZones').addEventListener('change',(e)=>{const v=e.target.checked?'visible':'none';['zone-fill','zone-outline','zone-labels'].forEach(id=>map.setLayoutProperty(id,'visibility',v));});
+document.getElementById('showHeat').addEventListener('change',(e)=>{map.setLayoutProperty('schools-heat','visibility',e.target.checked?'visible':'none');});
+</script>
+</body>
+</html>
