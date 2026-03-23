@@ -123,8 +123,7 @@ function getVisibleSchools(){
   return f.filter(x=>activeDistricts.has(x.properties.district)&&(!searchTerm||x.properties.name.toLowerCase().includes(searchTerm)));
 }
 function getVisibleBoundaries(){
-  if(['charter','private','magnet'].includes(activeTab))return[];
-  const cats=activeTab==='all'?['elementary','middle','high']:[activeTab];
+  const cats=['charter','private','magnet','all'].includes(activeTab)?['elementary','middle','high']:[activeTab];
   let f=[];
   cats.forEach(c=>(BOUNDARIES[c]||{features:[]}).features.forEach(x=>{if(activeDistricts.has(x.properties.district))f.push(x);}));
   return f;
