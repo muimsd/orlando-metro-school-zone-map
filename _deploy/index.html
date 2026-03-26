@@ -104,6 +104,11 @@ let dataLoaded = false;
 const GRADE_COLORS = {'A':'#006400','B':'#32CD32','C':'#FFC107','D':'#FF9800','F':'#E53935'};
 const protocol = new pmtiles.Protocol();
 maplibregl.addProtocol('pmtiles', protocol.tile);
+// Pre-load PMTiles into memory to avoid Range Request requirement
+fetch('boundaries.pmtiles').then(r=>r.arrayBuffer()).then(buf=>{
+  const src={getBytes:(offset,length)=>Promise.resolve({data:buf.slice(offset,offset+length)}),getKey:()=>'boundaries.pmtiles'};
+  protocol.add(new pmtiles.PMTiles(src));
+});
 const map = new maplibregl.Map({container:'map',style:'https://basemaps.cartocdn.com/gl/positron-gl-style/style.json',center:[-81.45,28.30],zoom:8.5,maxZoom:16,minZoom:7});
 map.addControl(new maplibregl.NavigationControl(),'top-right');
 map.addControl(new maplibregl.FullscreenControl(),'top-right');
